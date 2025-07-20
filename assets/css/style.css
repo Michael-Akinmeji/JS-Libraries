@@ -1,0 +1,142 @@
+body {
+
+}
+
+#hero {
+  height: 80vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: figtree;
+  font-size: 96px;
+  font-weight: 900;
+  color: #fff;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-family: kaushan script;
+  font-size: 40px;
+  color: #FFD300;
+}
+
+p {
+  font-family: figtree;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+}
+
+
+.glide__slides {
+  height: 100%; 
+}
+
+.glide__slide {
+  width: 300px;
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+#textGroup1 {
+  background-image: url(../images/Hero-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#textGroup2 {
+  background-image: url(../images/Hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#textGroup3 {
+  background-image: url(../images/Hero-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#textGroup4 {
+  background-image: url(../images/Hero-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 24px;
+}
+
+#buttonPrimary {
+  background-color: #fcca15;
+  color: #333;
+  border: none;
+  padding: 16px 40px;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#buttonSecondary {
+  background-color: transparent;
+  color: #FFD300;
+  border: 2px solid #fcca15;
+  padding: 16px 40px;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.glide__bullets {
+
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .glide__slide {
+    padding: 40px 20px;
+  }
+
+  .slide-content {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
