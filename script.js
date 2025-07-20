@@ -15,3 +15,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   glide.mount();
 });
+
+ AOS.init({
+      duration: 600,     // animation length in ms
+      once: false,        // whether animation should happen only once
+    });
+ 
+ 
+ 
+GLightbox({ selector: '.glightbox' });
